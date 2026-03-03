@@ -13,7 +13,7 @@ const FooterWrapper = styled.footer`
 
     hr {
         width: 80%;
-        border: 1px solid #354e72;
+        border: 1px solid #344969;
     }
 
 

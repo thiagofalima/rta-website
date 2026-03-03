@@ -4,7 +4,7 @@ import { Center } from "@chakra-ui/react";
 
 const HeroWrapper = styled.div`
   img {
-    width: 250px;
+    width: 200px;
   }
 `;
 

@@ -4,7 +4,7 @@ const HeaderWrapper = styled.header`
   width: 100vw;
   color: white;
   padding: 16px;
-  background-color: #354e72;
+  background-color: #344969;
 
   h1 {
     font-family: Michroma, sans-serif;
