@@ -18,7 +18,7 @@ const HeaderWrapper = styled.header`
 export const Header = () => {
     return (
         <HeaderWrapper>
-            <h1>RTA Soluções</h1>
+            <h1>Bem-vindo(a)</h1>
         </HeaderWrapper>
     )
 }

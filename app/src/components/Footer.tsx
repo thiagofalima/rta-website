@@ -23,7 +23,7 @@ export const Footer = () => {
   return (
     <FooterWrapper>
         <hr />
-        <p>&copy;RTA - Soluções</p>
+        <p>&copy; RTA - Soluções</p>
     </FooterWrapper>
   );
 };
