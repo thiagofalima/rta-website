@@ -13,12 +13,28 @@ const HeaderWrapper = styled.header`
     font-weight: 500;
     letter-spacing: 2px;
   }
+
+  ul.nav__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  li.link {
+    letter-spacing: 2px;
+  }
 `;
 
 export const Header = () => {
   return (
     <HeaderWrapper>
-      <h1>Bem-vindo(a)</h1>
+      <nav className="nav">
+        <ul className="nav__links">
+          <li className="link">Sobre</li>
+          <li className="link">Soluções</li>
+          <li className="link">Contato</li>
+        </ul>
+      </nav>
     </HeaderWrapper>
   );
 };
