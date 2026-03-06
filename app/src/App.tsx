@@ -4,7 +4,7 @@ import { GlobalStyle } from "./components/GlobalStyles";
 import { About } from "./components/About";
 import { WhatWeDo } from "./components/WhatWeDo";
 import { Center } from "@chakra-ui/react";
-
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Hero />
           <About/>
           <WhatWeDo/>
+          <Contact />
         </Center>
       </Layout>
     </>
