@@ -22,7 +22,7 @@ const Contacts = styled.div`
   }
 
   a {
-  font-weight: 500;
+    font-weight: 500;
     letter-spacing: 1.5px;
     color: #344969;
   }
@@ -41,7 +41,11 @@ export const Contact = () => {
           <img className="email" src={emailIcon} />
           E-mail:{" "}
           <p className="contact email">
-            <a href="mailto:contato@rtasolutions.com.br" className="link">
+            <a
+              target="_blank"
+              href="mailto:contato@rtasolutions.com.br"
+              className="link"
+            >
               contato@rtasolutions.com.br
             </a>
           </p>
@@ -51,7 +55,8 @@ export const Contact = () => {
           <p className="contact wpp">
             WhatsApp:{" "}
             <a
-              href="https://api.whatsapp.com/send?phone=1199696400/message=teste"
+              target="_blank"
+              href="https://wa.me/5511996916400?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
               className="link"
             >
               (11)996916400
