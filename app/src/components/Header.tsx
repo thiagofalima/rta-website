@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { HashLink as Link } from "react-router-hash-link";
+import { HashLink} from "react-router-hash-link";
 
 const HeaderWrapper = styled.header`
   width: 100vw;
@@ -41,19 +41,19 @@ export const Header = () => {
       <nav className="nav">
         <ul className="nav__links">
           <li className="link">
-            <Link smooth to="#About">
+            <HashLink smooth to="#About">
               Sobre
-            </Link>
+            </HashLink>
           </li>
           <li className="link">
-            <Link smooth to="#WhatWeDo">
+            <HashLink smooth to="#WhatWeDo">
               Soluções
-            </Link>
+            </HashLink>
           </li>
           <li className="link">
-            <Link smooth to="#Contact">
+            <HashLink smooth to="#Contact">
               Contato
-            </Link>
+            </HashLink>
           </li>
         </ul>
       </nav>
