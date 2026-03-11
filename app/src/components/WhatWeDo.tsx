@@ -24,7 +24,7 @@ const WhatWeDoWrapper = styled.section`
 
 export const WhatWeDo = () => {
   return (
-    <WhatWeDoWrapper>
+    <WhatWeDoWrapper id="WhatWeDo">
       <div className="container">
         <h2 className="title">O que fazemos?</h2>
         <Products />

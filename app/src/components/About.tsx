@@ -3,7 +3,7 @@ import Wrapper from "./Wrapper";
 
 export const About = () => {
   return (
-    <Wrapper>
+    <Wrapper id="About">
       <h2>Quem somos?</h2>
       <p>
         A RTA Soluções é uma empresa especializada no desenvolvimento de

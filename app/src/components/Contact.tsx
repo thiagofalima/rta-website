@@ -33,7 +33,7 @@ const Contacts = styled.div`
 
 export const Contact = () => {
   return (
-    <Wrapper>
+    <Wrapper id="Contact">
       <h2>Contato</h2>
       <Contacts>
         <div className="contact">
@@ -66,3 +66,4 @@ export const Contact = () => {
     </Wrapper>
   );
 };
+
