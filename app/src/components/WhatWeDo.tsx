@@ -28,9 +28,10 @@ const WhatWeDoWrapper = styled.section`
   small {
     margin-bottom: 10px;
     display: block;
-    font-size: 14px;
+    font-size: 1em;
     &::after {
-      content: " \\2192"; /* Seta para a direita (→) */
+      content: " \\2192";
+      font-size: 1.5em;
       display: inline-block;
       margin-left: 5px;
       animation: ${moveArrow} 1.5s ease-in-out infinite;
