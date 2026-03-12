@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.css";
 import Wrapper from "./Wrapper";
-import logo from "../assets/rta_logo.jpeg"
 import rpaIcon from "../assets/icons/rpa.svg"
 import wepAppIcon from "../assets/icons/web-app.svg"
 import siteIcon from "../assets/icons/site.svg"
