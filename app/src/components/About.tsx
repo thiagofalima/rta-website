@@ -6,7 +6,7 @@ export const About = () => {
     <Wrapper id="About">
       <h2>Quem somos?</h2>
       <p>
-        A RTA Soluções é uma empresa especializada no desenvolvimento de
+        A FTA Soluções é uma empresa especializada no desenvolvimento de
         softwares personalizados para empresas que desejam organizar processos,
         ganhar produtividade e tomar decisões com mais segurança.
       </p>
