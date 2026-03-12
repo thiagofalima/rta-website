@@ -4,7 +4,7 @@ const Wrapper = styled.section`
   width: 80%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 10px;
-  background: #FFFFFF;
+  background: #ffffff;
   padding: 16px;
 
   h2 {
@@ -14,6 +14,7 @@ const Wrapper = styled.section`
   }
 
   img.product {
+    margin-top: 1em;
     max-width: 50%;
   }
 `;

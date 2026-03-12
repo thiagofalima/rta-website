@@ -2,6 +2,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.css";
 import Wrapper from "./Wrapper";
 import logo from "../assets/rta_logo.jpeg"
+import rpaIcon from "../assets/icons/rpa.svg"
+import wepAppIcon from "../assets/icons/web-app.svg"
+import siteIcon from "../assets/icons/site.svg"
+import eComIcon from "../assets/icons/e-commerce.svg"
 
 interface IProduct {
   title: string;
@@ -14,7 +18,7 @@ const Product = ({ title, description, imgPath }: IProduct) => {
     <Wrapper>
       <h2>{title}</h2>
       <p>{description}</p>
-      <img className="product" src={imgPath} />
+      <img width="50" className="product" src={imgPath} />
     </Wrapper>
   );
 };
@@ -22,9 +26,8 @@ const Product = ({ title, description, imgPath }: IProduct) => {
 export const Products = () => {
   return (
     <Swiper
-      spaceBetween={50}
+      spaceBetween={30}
       slidesPerView={1}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {productsInformation.map(({ title, description, imgPath }) => {
         return (
@@ -44,20 +47,26 @@ export const Products = () => {
 const productsInformation = [
   {
     id: 1,
-    title: "Automações RPA",
+    title: "RPA",
     description: "Automações RPA",
-    imgPath: logo,
+    imgPath: rpaIcon,
   },
   {
     id: 2,
-    title: "Aplicações Web",
+    title: "Web Apps",
     description: "Aplicações Web",
-    imgPath: logo,
+    imgPath: wepAppIcon,
   },
   {
     id: 3,
-    title: "Sites / E-commerce",
-    description: "Sites / E-commerce",
-    imgPath: logo,
+    title: "Sites",
+    description: "Sites com Hospedagem",
+    imgPath: siteIcon,
+  },
+  {
+    id: 4,
+    title: "E-commerce",
+    description: "E-commerce completos",
+    imgPath: eComIcon,
   },
 ];
